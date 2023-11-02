@@ -1,0 +1,77 @@
+{
+  "menu": [
+    {
+      "menuHeader": "Menu"
+    },
+    {
+      "url": "/",
+      "name": "Dashboard Depan",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "home"
+    },
+    {
+      "url": "/dashboard",
+      "name": "Dashboard Admin",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard"
+    },
+    {
+      "url": "/users-management-tsa",
+      "name": "Users Management",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "users-management-tsa"
+    },
+    {
+      "url": "/news-management",
+      "name": "News Management",
+      "icon": "menu-icon tf-icons bx bx-news",
+      "slug": "news-management"
+    },
+    {
+      "url": "/upcoming-events",
+      "name": "Upcoming Events",
+      "icon": "menu-icon tf-icons bx bx-calendar-check",
+      "slug": "upcoming-events"
+    },
+    {
+      "url": "/memo",
+      "name": "Memo",
+      "icon": "menu-icon tf-icons bx bx-file-blank",
+      "slug": "memo"
+    },
+    {
+      "url": "/files-manager",
+      "name": "Files Manager",
+      "icon": "menu-icon tf-icons bx bx-hdd",
+      "slug": "files-manager"
+    },
+    {
+      "url": "/event-calendar",
+      "name": "Event Calendar",
+      "icon": "menu-icon tf-icons bx bx-calendar-star",
+      "slug": "event-calendar"
+    },
+    {
+      "name": "Entrepreneur",
+      "icon": "menu-icon tf-icons bx bx-wallet",
+      "slug": "finances",
+      "submenu": [
+        {
+          "url": "/entrepreneur-main",
+          "name": "Main Menu",
+          "slug": "entrepreneur-main"
+        },
+        {
+          "url": "/income",
+          "name": "Income",
+          "slug": "income"
+        },
+        {
+          "url": "/spend",
+          "name": "Spending",
+          "slug": "spend"
+        }
+      ]
+    }
+  ]
+}
